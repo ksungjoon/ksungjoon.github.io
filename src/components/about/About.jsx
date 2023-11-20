@@ -1,5 +1,5 @@
 import "./about.css";
-import AboutMe from "../../assets/images/me-about.jpg";
+import AboutMe from "../../assets/images/me.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -18,18 +18,18 @@ const About = () => {
           <div className="about-cards">
             <article className="about-card">
               <FaAward className="about-icon" />
-              <h5>Experiences</h5>
-              <small>3+ Years Working</small>
+              <h5>산업공학과</h5>
+              <small>학점:3.82</small>
             </article>
             <article className="about-card">
               <FiUsers className="about-icon" />
-              <h5>Clients</h5>
-              <small>300+ World Wide</small>
+              <h5>SSAFY</h5>
+              <small>SSAFY 9기 수료</small>
             </article>
             <article className="about-card">
               <VscFolderLibrary className="about-icon" />
-              <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <h5>5개의 Projects</h5>
+              <small>3개의 수상경력</small>
             </article>
           </div>
           <p>

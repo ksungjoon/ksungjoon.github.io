@@ -41,13 +41,9 @@ const Footer = () => {
         <a href="https://instagram.com">
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
-          {" "}
-          <FiTwitter />
-        </a>
       </div>
       <div className="footer-copyright">
-        <small>&copy; Yaseen Akbari. All rights reserved.</small>
+        <small>Created by SungJoon Kim</small>
       </div>
     </footer>
   );

@@ -1,12 +1,13 @@
 .container.contact-container {
-  display: grid;
-  grid-template-columns: 30% 58%;
+  display: flex;
+  flex-direction: column;
   gap: 12%;
   width: 58%;
 }
 .contact-options {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
   gap: 1.2rem;
 }
 .contact-option {
@@ -16,6 +17,7 @@
   border-radius: 1.2rem;
   text-align: center;
   transition: var(--transition);
+  width: 300px;
 }
 .contact-option:hover {
   background: transparent;
@@ -55,10 +57,16 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .contact-options{
+    flex-direction: column;
+  }
 }
 /* Small Devices (600px) */
 @media screen and (max-width: 37.5em) {
   .container.contact-container {
     width: var(--container-width-sm);
+  }
+  .contact-options{
+    flex-direction: column;
   }
 }

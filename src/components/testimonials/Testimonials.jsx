@@ -41,7 +41,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      <h2>나의 평가</h2>
       <Swiper
         className="container testimonials-container"
         // install Swiper modules

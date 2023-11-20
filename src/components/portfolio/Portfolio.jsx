@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </figure>
               <h3>
-                {title} {id}
+                {title}
               </h3>
               <div className="portfolio-item-cta">
                 <a

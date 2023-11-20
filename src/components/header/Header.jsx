@@ -10,8 +10,10 @@ const Header = () => {
           <h2>사용자입장에서 생각하는 개발자</h2>
           <h1>김성준입니다.</h1>
           <h5 className="text-light">Frotnend Developer</h5>
+          <br />
+          
           <CTA />
-          </div>
+        </div>
         <div>
           <figure className="me">
             <img src={ME} alt="Me" />
