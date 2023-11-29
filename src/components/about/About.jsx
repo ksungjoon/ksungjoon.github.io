@@ -33,10 +33,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-            molestiae quidem optio quo. Saepe ratione repellat pariatur
-            accusantium provident expedita ut, recusandae illum, ea ipsam
-            tempora nostrum error hic. Sapiente.
+            사용자 중심의 프론트엔드 개발자로, 다양한 기술을 손쉽게 익히며 항상 새로운 도전에 열려있습니다. 
+            사용자의 피드백을 적극적으로 수용하고 반영하여, 언제나 높은 만족도를 유지하며 웹 경험을 향상시키는 것을 목표로 하고 있습니다.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

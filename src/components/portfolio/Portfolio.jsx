@@ -1,35 +1,42 @@
 import "./portfolio.css";
-import IMG1 from "../../assets/images/portfolio1.jpg";
-import IMG2 from "../../assets/images/portfolio2.jpg";
-import IMG3 from "../../assets/images/portfolio3.jpg";
-import IMG4 from "../../assets/images/portfolio4.jpg";
-import IMG5 from "../../assets/images/portfolio5.jpg";
+import IMG1 from "../../assets/images/aurora.png";
+import IMG2 from "../../assets/images/eoulim.png";
+import IMG3 from "../../assets/images/portfolio5.jpg";
+import IMG4 from "../../assets/images/taesan.png";
+import IMG5 from "../../assets/images/eoulim.v2.png";
 import IMG6 from "../../assets/images/portfolio6.jpg";
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "어울림 v1.0",
-    github: "https://github.com/akbari4yaseen",
+    title: "Aurora",
+    github: "https://github.com/ksungjoon/Aurora",
     demo: "https://github.com/akbari4yaseen/demo",
   },
   {
     id: 2,
     image: IMG2,
-    title: "아이조아",
-    github: "https://github.com/akbari4yaseen",
+    title: "어울림 v1.0",
+    github: "https://github.com/ksungjoon/Eoullim",
     demo: "https://github.com/akbari4yaseen/demo",
   },
   {
     id: 3,
     image: IMG3,
-    title: "태산",
-    github: "https://github.com/akbari4yaseen",
+    title: "아이조아",
+    github: "https://github.com/ksungjoon/IJoah",
     demo: "https://github.com/akbari4yaseen/demo",
   },
   {
     id: 4,
     image: IMG4,
+    title: "태산",
+    github: "https://github.com/ksungjoon/TAESAN",
+    demo: "https://github.com/akbari4yaseen/demo",
+  },
+  {
+    id: 5,
+    image: IMG5,
     title: "어울림 v2.0",
     github: "https://github.com/akbari4yaseen",
     demo: "https://github.com/akbari4yaseen/demo",

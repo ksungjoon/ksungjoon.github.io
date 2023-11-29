@@ -175,6 +175,19 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        {/* certificate */}
+        <div className="experience-backend">
+          <h3>Certificate</h3>
+          <div className="experience-content">
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>ADsP</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );
