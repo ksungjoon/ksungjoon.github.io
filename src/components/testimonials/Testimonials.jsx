@@ -7,41 +7,47 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./testimonials.css";
-import AVATAR1 from "../../assets/images/avatar1.jpg";
-import AVATAR2 from "../../assets/images/avatar2.jpg";
-import AVATAR3 from "../../assets/images/avatar3.jpg";
-import AVATAR4 from "../../assets/images/avatar4.jpg";
+import AVATAR1 from "../../assets/images/hayoung.png";
+import AVATAR2 from "../../assets/images/yeonsuk.png";
+import AVATAR3 from "../../assets/images/umin.png";
+import AVATAR4 from "../../assets/images/youngje.png";
+import AVATAR5 from "../../assets/images/gyungjoon.png";
 const data = [
   {
     avatar: AVATAR1,
-    name: "Tina Lion",
+    name: "김하영",
     review:
-      "Libero, temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatum doloribus. Libero, temporibus corrupti provident quas quia consectetur dolor eum excepturi exercitationem, iste animi. Voluptas fuga ipsum eius impedit laboriosam.",
+      "사용자의 입장에서 개발하는 팀원이며 협업을 통해서 문제를 해결해나가는 개발자입니다",
   },
   {
     avatar: AVATAR2,
-    name: "Shita Snow",
+    name: "유연석",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatum doloribus. Libero, temporibus corrupti provident quas quia consectetur dolor eum excepturi exercitationem, iste animi. Voluptas fuga ipsum eius impedit laboriosam.",
+      "문제에 대한 다양한 해결 방법을 고민하고, 적극적으로 팀원들과 공유하며 본인의 의견이 아닌 해결 방법도 팀에서 정한 방식에 대해 적극적으로 임합니다.",
   },
   {
     avatar: AVATAR3,
-    name: "Kwame Happy",
+    name: "고우민",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatum doloribus. temporibus corrupti provident quas quia consectetur dolor eum excepturi exercitationem, iste animi. Voluptas fuga ipsum eius impedit laboriosam.",
+      "문제에 몰입하고 끈기있게 해결하는 팀원입니다.",
   },
   {
     avatar: AVATAR4,
-    name: "Hana Rose",
+    name: "오영재",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatum doloribus. Libero, temporibus corrupti provident quas quia consectetur dolor eum excepturi exercitationem, iste animi. Voluptas fuga ipsum eius impedit laboriosam.",
+      "한 번 시작한 일은 끝까지 해내는 책임감이 있습니다.",
+  },
+  {
+    avatar: AVATAR5,
+    name: "안경준",
+    review:
+      "문제 해결을 위해 끊임없이 고민하고, 도전하는 개발자입니다.",
   },
 ];
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>나의 평가</h2>
+      <h2>팀원들의 나의 평가</h2>
       <Swiper
         className="container testimonials-container"
         // install Swiper modules

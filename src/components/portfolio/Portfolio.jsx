@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import IMG1 from "../../assets/images/aurora.png";
 import IMG2 from "../../assets/images/eoulim.png";
-import IMG3 from "../../assets/images/portfolio5.jpg";
+import IMG3 from "../../assets/images/Ijoha.png";
 import IMG4 from "../../assets/images/taesan.png";
 import IMG5 from "../../assets/images/eoulim.v2.png";
 import IMG6 from "../../assets/images/portfolio6.jpg";
@@ -23,7 +23,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "아이조아",
+    title: "모아일기",
     github: "https://github.com/ksungjoon/IJoah",
     demo: "https://github.com/akbari4yaseen/demo",
   },

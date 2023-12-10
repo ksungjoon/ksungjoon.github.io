@@ -5,12 +5,6 @@ import { FiTwitter } from "react-icons/fi";
 const Footer = () => {
   return (
     <footer id="footer">
-      <a
-        href="https://www.linkedin.com/in/yaseen-akbari/"
-        className="footer-logo"
-      >
-        Yaseen Akbari
-      </a>
       <ul className="footer-links">
         <li>
           <a href="#home">Home</a>
@@ -19,29 +13,26 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experiences">Experiences</a>
+          <a href="#experiences">My Skills</a>
         </li>
         <li>
-          <a href="#services">services</a>
+          <a href="#portfolio">Projects</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Evaluations</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer-socials">
+      {/* <div className="footer-socials">
         <a href="https://facebook.com">
           <FaFacebookF />
         </a>
         <a href="https://instagram.com">
           <FiInstagram />
         </a>
-      </div>
+      </div> */}
       <div className="footer-copyright">
         <small>Created by SungJoon Kim</small>
       </div>
